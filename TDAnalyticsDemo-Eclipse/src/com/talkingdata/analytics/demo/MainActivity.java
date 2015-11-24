@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
     private Button button_error;
     private Button button_crash;
     private Button button_fragment;
+    private Button button_fragment_hideshow;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,7 @@ public class MainActivity extends Activity {
         button_error = (Button) findViewById(R.id.button_error);
         button_crash = (Button) findViewById(R.id.button_crash);
         button_fragment = (Button) findViewById(R.id.button_fragment);
+        button_fragment_hideshow = (Button) findViewById(R.id.button_fragment_hideshow);
     }
 
     private void setListener() {
@@ -113,6 +115,15 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        button_fragment_hideshow.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FragmentHideShow.class);
+                startActivity(intent);
+            }
+        });
     }
     
     @Override 
@@ -132,12 +143,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        TCAgent.onResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        TCAgent.onPause(this);
     }
 }

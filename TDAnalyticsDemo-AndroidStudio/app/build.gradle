@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.talkingdata.analytics.demo"
-        minSdkVersion 9
+        minSdkVersion 11
         targetSdkVersion 23
     }
 
@@ -20,5 +20,5 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:23.0.1'
-    compile files('libs/TalkingDataAnalytics_V1.2.79.jar')
+    compile files('libs/TalkingDataAnalytics_V2.0.4.jar')
 }

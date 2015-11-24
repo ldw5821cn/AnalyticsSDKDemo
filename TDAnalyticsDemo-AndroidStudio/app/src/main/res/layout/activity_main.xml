@@ -48,4 +48,11 @@
         android:text="@string/button_fragment"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
+    <Button
+        android:id="@+id/button_fragment_hideshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_fragment_hideshow"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
 </LinearLayout>

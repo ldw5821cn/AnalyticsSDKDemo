@@ -7,7 +7,8 @@
     <string name="button_eventWithIdAndLabelAndExtraData">记录自定义事件： id、 label 以及更多 extra 数据</string>
     <string name="button_error">记录错误</string>
     <string name="button_crash">未捕获异常</string>
-    <string name="button_fragment">Fragment 测试</string>
+    <string name="button_fragment">replace 模式 Fragment 测试</string>
+    <string name="button_fragment_hideshow">hide-show 模式 Fragment 测试 </string>
     <string name="title_activity_main">测试</string>
 
 </resources>

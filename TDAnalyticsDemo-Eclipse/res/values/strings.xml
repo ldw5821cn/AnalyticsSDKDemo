@@ -7,7 +7,8 @@
     <string name="button_eventWithIdAndLabelAndExtraData">Custom Event, id, label and extra data</string>
     <string name="button_error">Record Error</string>
     <string name="button_crash">Record uncaught exception</string>
-    <string name="button_fragment">Test Fragment</string>
+    <string name="button_fragment">Test Fragment in replace mode</string>
+    <string name="button_fragment_hideshow">Test Fragment in hide-show mode</string>
     <string name="title_activity_main">Test Panel</string>
 
 </resources>
